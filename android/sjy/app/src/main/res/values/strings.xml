@@ -4,4 +4,7 @@
     <string name="text_user_name">用户名：</string>
     <string name="text_user_password">用户密码：</string>
     <string name="hint_user_password">请输入用户密码</string>
+    <string name="input_text">请输入验证码</string>
+    <string name="check">Qy1y</string>
+    <string name="login">注册</string>
 </resources>
