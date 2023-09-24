@@ -7,4 +7,6 @@
     <string name="input_text">请输入验证码</string>
     <string name="check">Qy1y</string>
     <string name="login">注册</string>
+    <string name="phone_name">请输入手机号</string>
+    <string name="phone">手机号码：</string>
 </resources>
