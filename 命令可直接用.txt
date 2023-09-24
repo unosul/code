@@ -1,0 +1,6 @@
+git init
+git add .
+git config --global user.name "unosul" 
+git config --global user.email "q1312727238@outlook.com"
+git commit -m '日期'
+git push origin master
