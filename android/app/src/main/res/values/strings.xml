@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ex2</string>
+    <string name="Login_name">用户名</string>
+    <string name="Login_password">密码</string>
+    <string name="Login_name_hint">请输入用户名</string>
+    <string name="Login_password_hint">请输入密码</string>
+    <string name="Button_login">登入</string>
+    <string name="Login_text">登入</string>
+</resources>
