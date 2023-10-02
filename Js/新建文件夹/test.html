@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+			function search(){
+				var x=document.getElementById("info").innerHTML;
+				var y=document.getElementById("key").value;
+				var pos =x.indexOf(y);
+				window.alert(pos);
+				var s1=x.substr(0,pos);
+				var s2=x.substr(pos+pos.length);
+				document.getElementById("result").innerHTML=s1+"<font color=red size=16>"+y+"</font>"+s2;
+			}
+		</script>
+	</head>
+	<body>
+		<textarea id="info" rows="20" cols="150">
+俄罗斯卫星通讯社的报道还特别指出，10月8日清晨，克里米亚大桥卡车发生爆炸，导致油罐车7节油罐起火。大桥两节跨梁部分倒塌。国家反恐委员会称，引桥拱未遭破坏，据当地政府的初步信息，紧急事件未造成伤亡。俄罗斯联邦侦查委员会称，根据初步数据，克里米亚大桥爆炸事件造成散人死亡。俄总统普京在当天签署命令，授权俄联邦安全局对克里米亚大桥等设施加强保护。
+		</textarea>
+		<br>
+		<input id="key" type="text"/><button onclick="search()">搜索</button>
+		<br>
+		<span id="result"></span>
+	</body>
+</html>
